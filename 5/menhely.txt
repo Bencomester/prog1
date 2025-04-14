@@ -1,0 +1,50 @@
+Labrador,Lucy,3,Brindle
+Doberman,Sadie,14,Cream
+Chihuahua,Rocky,15,Blue
+Labrador,Lucy,6,Brindle
+Cocker Spaniel,Bella,3,Brown
+Dachshund,Sadie,7,Blue
+Beagle,Jake,13,White
+Doberman,Jake,13,Blue
+Bulldog,Rocky,6,Cream
+Labrador,Bailey,15,Brindle
+Great Dane,Charlie,7,White
+Bulldog,Daisy,7,Gray
+Shih Tzu,Zoey,3,Tan
+Labrador,Jake,8,Cream
+Shih Tzu,Toby,8,Brown
+Bulldog,Zoey,2,Cream
+Rottweiler,Buddy,5,Cream
+Dachshund,Milo,4,Gray
+Boxer,Jake,9,Black
+Labrador,Rocky,13,Brindle
+Doberman,Bella,5,Cream
+Labrador,Rocky,6,Black
+Rottweiler,Sadie,3,Blue
+Rottweiler,Luna,7,Tan
+Chihuahua,Rocky,14,Cream
+Poodle,Bailey,13,Gray
+Beagle,Toby,8,White
+Great Dane,Buddy,12,Gray
+Labrador,Milo,9,White
+Chihuahua,Daisy,9,Cream
+Doberman,Sadie,9,Cream
+Chihuahua,Daisy,8,Tan
+Husky,Chloe,12,Brindle
+Doberman,Luna,2,Tan
+Bulldog,Chloe,5,Blue
+Doberman,Rocky,8,Gray
+Boxer,Max,4,Gray
+Beagle,Daisy,13,Brown
+Boxer,Luna,4,Brown
+Cocker Spaniel,Toby,6,Red
+Husky,Max,12,Brown
+Rottweiler,Lucy,14,Brown
+Dachshund,Buddy,12,White
+Beagle,Toby,10,Gray
+Chihuahua,Lucy,8,Blue
+Bulldog,Jake,15,Brown
+Labrador,Max,4,White
+Great Dane,Daisy,4,Gray
+Cocker Spaniel,Daisy,10,Gray
+Dachshund,Zoey,7,Black
