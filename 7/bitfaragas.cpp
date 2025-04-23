@@ -1,27 +1,2 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
-#include <cctype>
-#include <string>
-using namespace std;
-bool p(string t){
-	string s;
-    for(char c:t)if(isalpha(c))s+=tolower(c);
-    for(int l=0,r=s.size()-1;l<r;l++,r--)if(s[l]!=s[r])return 0;
-    return 1;
-}
-int main(){
-    string s;
-    cout<<"Szöveg: ";
-    getline(cin,s);
-    cout<<"A szöveg "<<(p(s)?"palindróm.\n":"nem palindróm.\n");
-    int n;
-    cout<<"\nSzámok száma: ";
-    cin>>n;
-    cout<<"Számok:\n";
-    vector<int> v(n);
-    for(int i=0;i<n;i++){cout<<i+1<<". ";cin>>v[i];}
-    sort(v.begin(),v.end());
-    cout<<"Rendezett: ";
-    for(int i:v)cout<<i<<" ";
-}
+#include <bits/stdc++.h>
+using namespace std;bool p(string t){string s;for(char c:t)if(isalpha(c))s+=tolower(c);for(int l=0,r=s.size()-1;l<r;l++,r--)if(s[l]^s[r])return 0;return 1;}int main(){ostream&o=cout;string s;o<<"Szöveg: ";getline(cin,s);o<<(p(s)?"P":"Nem p")<<"alindróm\n";int n,j;o<<"\nHány szám? ";cin>>n;multiset<int>v;for(int i=1;i<=n;i++){o<<i<<". ";cin>>j;v.insert(j);}for(int i:v)o<<i<<" ";}
