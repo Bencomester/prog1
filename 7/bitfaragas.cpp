@@ -1,2 +1,2 @@
-#include <bits/stdc++.h>
-using namespace std;int main(){string t,s;getline(cin,t);for(char c:t)if(isalpha(c))s+=tolower(c);cout<<(s==string(s.rbegin(),s.rend())?"I\n":"N\n");int n,j;multiset<int>v;for(cin>>n;n--;){cin>>j;v.insert(j);}for(int i:v)cout<<i<<" ";}
+#include<bits/stdc++.h>
+using namespace std;int main(){string t,s;getline(cin,t);for(int c:t)if(isalpha(c))s+=c|32;cout<<(s==string(rbegin(s),rend(s)));int n;cin>>n;int v[n];for(int&i:v)cin>>i;sort(v,v+n);for(int i:v)cout<<i<<' ';}
